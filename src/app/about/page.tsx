@@ -1,5 +1,19 @@
+import { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+
+export const metadata: Metadata = {
+  title: "Về chúng tôi - Sứ mệnh EOffice Tutor AI",
+  description: "Tìm hiểu về sứ mệnh dân chủ hóa kiến thức Excel thông qua trí tuệ nhân tạo của EOffice Tutor AI. Chúng tôi giúp bạn hiểu Excel, không chỉ làm hộ.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "Về chúng tôi - Sứ mệnh EOffice Tutor AI",
+    description: "Tìm hiểu về sứ mệnh dân chủ hóa kiến thức Excel thông qua trí tuệ nhân tạo.",
+    url: "https://eofficeai.io.vn/about",
+  },
+};
 
 export default function About() {
   return (

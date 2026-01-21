@@ -1,6 +1,20 @@
+import { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { Mail, MessageSquare, Phone } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Liên hệ - Hỗ trợ 24/7",
+  description: "Liên hệ đội ngũ EOffice Tutor AI qua Hotline, Email hoặc Zalo. Chúng tôi sẵn sàng hỗ trợ bạn cài đặt và sử dụng công cụ AI Excel.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "Liên hệ EOffice Tutor AI - Hỗ trợ 24/7",
+    description: "Liên hệ đội ngũ hỗ trợ qua Hotline, Email hoặc Zalo.",
+    url: "https://eofficeai.io.vn/contact",
+  },
+};
 
 export default function Contact() {
   return (
