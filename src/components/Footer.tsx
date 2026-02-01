@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Sparkles, Facebook, Github, Phone, Mail } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
@@ -15,7 +14,7 @@ const Footer = () => {
             <Sparkles className="w-4 h-4 text-black" fill="black" />
           </div>
           <span className="font-black text-xs tracking-tighter text-white uppercase italic">
-            EOffice <span className="text-emerald-500">Tutor</span>
+            EOfficial <span className="text-emerald-500">Tutor AI</span>
           </span>
         </div>
 
@@ -29,18 +28,18 @@ const Footer = () => {
             <Mail className="w-3 h-3" /> eofficialtutorai@gmail.com
           </a>
           <div className="w-1 h-1 bg-white/10 rounded-full hidden sm:block" />
-          <a href="https://www.facebook.com/EOfficialTutorAI" target="_blank" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+          <a href="https://www.facebook.com/EOfficialTutorAI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
             <Facebook className="w-3 h-3" /> Fanpage
           </a>
           <div className="w-1 h-1 bg-white/10 rounded-full hidden sm:block" />
-          <a href="https://github.com/minhto1511/Excel-Add-in" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors">
+          <a href="https://github.com/minhto1511/Excel-Add-in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
             <Github className="w-3 h-3" /> GitHub
           </a>
         </div>
 
         {/* Right: Copyright */}
         <p className="text-[9px] font-black text-white/15 tracking-[0.2em] uppercase whitespace-nowrap flex-shrink-0">
-          © 2025 EOffice Tutor AI.
+          © 2025 EOfficial Tutor AI.
         </p>
 
       </div>

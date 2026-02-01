@@ -106,7 +106,7 @@ export default function StoryPage() {
                     <div className="flex-shrink-0 w-12 h-12 rounded-full border border-emerald-500/20 flex items-center justify-center font-black text-emerald-500">03</div>
                     <div>
                       <h4 className="text-xl font-bold mb-2">Hệ sinh thái thông minh</h4>
-                      <p className="text-gray-500 leading-relaxed">Mở rộng ra toàn bộ bộ công cụ Google Sheets và các nền tảng văn phòng phổ biến.</p>
+                      <p className="text-gray-500 leading-relaxed">Khởi đầu từ Excel, chúng tôi đang hướng tới tích hợp Google Sheets và toàn bộ hệ sinh thái văn phòng phổ biến trong tương lai.</p>
                     </div>
                   </div>
                 </div>

@@ -9,15 +9,16 @@ const siteUrl = "https://eofficeai.io.vn";
 export const metadata: Metadata = {
   // Basic Metadata
   title: {
-    default: "EOffice Tutor AI - Trợ Lý Excel Thông Minh",
-    template: "%s | EOffice Tutor AI",
+    default: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
+    template: "%s | EOfficial Tutor AI",
   },
-  description: "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
+  description:
+    "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
   keywords: [
     "excel ai",
     "tạo công thức excel",
     "học excel",
-    "eoffice tutor ai",
+    "eofficial tutor ai",
     "gemini excel",
     "công thức excel",
     "excel add-in",
@@ -26,52 +27,54 @@ export const metadata: Metadata = {
     "hàm excel",
     "vlookup",
     "sumif",
-    "google sheets ai"
+    "google sheets ai",
   ],
-  authors: [{ name: "EOffice Tutor AI Team" }],
-  creator: "EOffice Tutor AI",
-  publisher: "EOffice Tutor AI",
-  
+  authors: [{ name: "EOfficial Tutor AI Team" }],
+  creator: "EOfficial Tutor AI",
+  publisher: "EOfficial Tutor AI",
+
   // Canonical URL
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: "/",
   },
-  
+
   // Open Graph (Facebook, LinkedIn)
   openGraph: {
     type: "website",
     locale: "vi_VN",
     url: siteUrl,
-    siteName: "EOffice Tutor AI",
-    title: "EOffice Tutor AI - Trợ Lý Excel Thông Minh",
-    description: "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
+    siteName: "EOfficial Tutor AI",
+    title: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
+    description:
+      "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
     images: [
       {
         url: "/icon.png",
         width: 512,
         height: 512,
-        alt: "EOffice Tutor AI Logo",
+        alt: "EOfficial Tutor AI Logo",
       },
     ],
   },
-  
+
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "EOffice Tutor AI - Trợ Lý Excel Thông Minh",
-    description: "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất.",
+    title: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
+    description:
+      "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất.",
     images: ["/icon.png"],
     creator: "@eofficeai",
   },
-  
+
   // Icons
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",
     apple: "/icon.png",
   },
-  
+
   // Robots
   robots: {
     index: true,
@@ -84,7 +87,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  
+
   // Verification (thêm sau khi đăng ký Google Search Console)
   // verification: {
   //   google: "your-google-verification-code",
@@ -95,7 +98,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "EOffice Tutor AI",
+  name: "EOfficial Tutor AI",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web Browser",
   offers: {
@@ -109,12 +112,13 @@ const jsonLd = {
     ratingValue: "4.8",
     ratingCount: "150",
   },
-  description: "Trợ lý AI thông minh giúp tạo công thức Excel và học các bước thực hiện. Hỗ trợ tiếng Việt 100%.",
+  description:
+    "Trợ lý AI thông minh giúp tạo công thức Excel và học các bước thực hiện. Hỗ trợ tiếng Việt 100%.",
   url: siteUrl,
   image: `${siteUrl}/icon.png`,
   author: {
     "@type": "Organization",
-    name: "EOffice Tutor AI Team",
+    name: "EOfficial Tutor AI Team",
   },
 };
 
@@ -131,7 +135,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.className} antialiased selection:bg-emerald-100 selection:text-emerald-900`}>
+      <body
+        className={`${inter.className} antialiased selection:bg-emerald-100 selection:text-emerald-900`}
+      >
         {children}
       </body>
     </html>

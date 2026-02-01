@@ -27,6 +27,7 @@ export default function InstallGuidePage() {
           href="https://excel-add-in-six.vercel.app/manifest.xml" 
           download 
           target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-lg text-sm font-bold hover:bg-emerald-500/20 transition-all mt-4"
         >
           <Download className="w-4 h-4" /> Tải Manifest.xml
@@ -42,6 +43,7 @@ export default function InstallGuidePage() {
           <a 
             href="https://excel.cloud.microsoft/" 
             target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-lg text-sm font-bold hover:bg-blue-500/20 transition-all mt-4"
           >
             <ExternalLink className="w-4 h-4" /> Truy cập Excel Online
@@ -85,7 +87,7 @@ export default function InstallGuidePage() {
               Hướng Dẫn <span className="text-emerald-500">Cài Đặt</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Chỉ mất 2 phút để tích hợp trí tuệ nhân tạo EOffice Tutor AI vào Excel của bạn.
+              Chỉ mất 2 phút để tích hợp trí tuệ nhân tạo EOfficial Tutor AI vào Excel của bạn.
             </p>
           </motion.div>
 
@@ -101,16 +103,13 @@ export default function InstallGuidePage() {
               >
                 <Globe className="w-4 h-4" /> Bản Excel Online (Web)
               </button>
-              <button 
-                disabled
-                className="px-8 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2 text-white/20 cursor-not-allowed group relative"
+              <Link 
+                href="/desktop-guide"
+                className="px-8 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2 text-white/50 hover:text-white"
               >
-                <Monitor className="w-4 h-4 opacity-30" /> 
+                <Monitor className="w-4 h-4" /> 
                 Excel Desktop
-                <span className="absolute -top-2 -right-2 bg-gray-800 text-[8px] px-2 py-0.5 rounded-full text-white/50 uppercase tracking-tighter border border-white/5 whitespace-nowrap">
-                  Coming Soon
-                </span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -123,9 +122,9 @@ export default function InstallGuidePage() {
           >
             <Info className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
             <div>
-              <h4 className="font-bold text-blue-400 mb-1 italic">Thông báo: Chỉ hỗ trợ cài đặt trên Excel Online</h4>
+              <h4 className="font-bold text-blue-400 mb-1 italic">Hỗ trợ đa nền tảng</h4>
               <p className="text-sm text-gray-400 leading-relaxed">
-                Để đảm bảo trải nghiệm AI mượt mà nhất, hiện tại chúng tôi tập trung tối ưu cho phiên bản Web. Bản cài đặt cho Desktop (Windows/Mac) sẽ sớm ra mắt trong thời gian tới.
+                EOfficial Tutor AI hiện đã hỗ trợ đầy đủ trên cả Excel Online và Excel Desktop (Windows). Hãy chọn tab tương ứng để xem hướng dẫn chi tiết.
               </p>
             </div>
           </motion.div>
@@ -198,6 +197,7 @@ export default function InstallGuidePage() {
               <a 
                 href="https://www.facebook.com/EOfficialTutorAI" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 bg-white/20 border border-black/10 text-black font-black rounded-2xl hover:bg-white/30 transition-all flex items-center justify-center gap-2"
               >
                 Nhắn tin Fanpage
