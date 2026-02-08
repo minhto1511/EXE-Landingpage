@@ -35,7 +35,7 @@ const Header = () => {
             <Sparkles className="w-5 h-5 text-black" fill="black" />
           </div>
           <span className="font-black text-lg tracking-tighter text-white uppercase italic">
-            EOfficial <span className="text-emerald-500">Tutor AI</span>
+            EOffice <span className="text-emerald-500">Tutor AI</span>
           </span>
         </Link>
 
@@ -43,6 +43,7 @@ const Header = () => {
         <nav className="hidden md:flex items-center gap-1 whitespace-nowrap flex-nowrap">
           {[
             { name: 'Tính năng', href: '/#features' },
+            { name: 'Wiki Hàm', href: '/wiki' },
             { name: 'Hướng dẫn', href: '/#guide' },
             { name: 'Câu chuyện', href: '/story' },
             { name: 'Tạo công thức', href: '/#generator' }

@@ -15,9 +15,7 @@ const HeroSection = () => {
       </div>
 
       {/* Grid Pattern */}
-      <div className="absolute inset-0 z-0 opacity-[0.03]" 
-           style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M0 0h40v40H0V0zm1 1h38v38H1V1z' fill='%23ffffff'/%3E%3C/svg%3E")` }} 
-      />
+      <div className="absolute inset-0 z-0 opacity-[0.03] bg-grid-pattern" />
 
       <div className="relative z-10 container mx-auto px-4 text-center">
         {/* Floating Badge */}
@@ -49,7 +47,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="max-w-2xl mx-auto text-xl md:text-2xl text-white font-light leading-relaxed mb-12"
         >
-          Không còn vật lộn với công thức. Chỉ cần nói những gì bạn muốn, AI sẽ làm phần còn lại. Trải nghiệm tương lai của bảng tính.
+          Không còn vật lộn với công thức. **Trợ lý Excel thông minh** EOffice Tutor AI giúp bạn làm việc nhanh hơn gấp 10 lần.
         </motion.p>
 
         {/* Premium CTA Block */}

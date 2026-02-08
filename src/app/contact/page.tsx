@@ -4,14 +4,14 @@ import Footer from "../../components/Footer";
 import { Mail, MessageSquare, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Liên hệ - Hỗ trợ 24/7",
-  description: "Liên hệ đội ngũ EOfficial Tutor AI qua Hotline, Email hoặc Zalo. Chúng tôi sẵn sàng hỗ trợ bạn cài đặt và sử dụng công cụ AI Excel.",
+  title: "Liên hệ Hỗ trợ Excel Add-in - EOffice Tutor AI 24/7",
+  description: "Liên hệ đội ngũ EOffice Tutor AI để được hỗ trợ cài đặt Excel Add-in AI qua Hotline, Email hoặc Zalo nhanh nhất.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Liên hệ EOfficial Tutor AI - Hỗ trợ 24/7",
-    description: "Liên hệ đội ngũ hỗ trợ qua Hotline, Email hoặc Zalo.",
+    title: "Hỗ trợ Excel Add-in AI - EOffice Tutor AI 24/7",
+    description: "Liên hệ đội ngũ hỗ trợ cài đặt và sử dụng Excel Add-in AI.",
     url: "https://eofficeai.io.vn/contact",
   },
 };

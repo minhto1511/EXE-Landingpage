@@ -9,29 +9,31 @@ const siteUrl = "https://eofficeai.io.vn";
 export const metadata: Metadata = {
   // Basic Metadata
   title: {
-    default: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
-    template: "%s | EOfficial Tutor AI",
+    default: "Excel Add-in AI - EOffice Tutor AI | Trợ Lý Excel Thông Minh",
+    template: "%s | EOffice Tutor AI",
   },
   description:
-    "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
+    "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động bằng trí tuệ nhân tạo.",
   keywords: [
-    "excel ai",
+    "excel add-in",
+    "excel add-in ai",
+    "ai excel add-in",
     "tạo công thức excel",
     "học excel",
     "eofficial tutor ai",
+    "eoffice tutor ai",
     "gemini excel",
     "công thức excel",
-    "excel add-in",
     "trợ lý excel",
+    "trợ lý excel thông minh",
     "ai excel việt nam",
     "hàm excel",
-    "vlookup",
-    "sumif",
     "google sheets ai",
+    "excel automation",
   ],
-  authors: [{ name: "EOfficial Tutor AI Team" }],
-  creator: "EOfficial Tutor AI",
-  publisher: "EOfficial Tutor AI",
+  authors: [{ name: "EOffice Tutor AI Team" }],
+  creator: "EOffice Tutor AI",
+  publisher: "EOffice Tutor AI",
 
   // Canonical URL
   metadataBase: new URL(siteUrl),
@@ -44,16 +46,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     url: siteUrl,
-    siteName: "EOfficial Tutor AI",
-    title: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
+    siteName: "EOffice Tutor AI",
+    title: "Excel Add-in AI - EOffice Tutor AI | Trợ Lý Excel Thông Minh",
     description:
-      "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất cho người Việt.",
+      "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động bằng trí tuệ nhân tạo.",
     images: [
       {
         url: "/icon.png",
         width: 512,
         height: 512,
-        alt: "EOfficial Tutor AI Logo",
+        alt: "Excel Add-in AI - EOffice Tutor AI Logo",
       },
     ],
   },
@@ -61,9 +63,9 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "EOfficial Tutor AI - Trợ Lý Excel Thông Minh",
+    title: "Excel Add-in AI - EOffice Tutor AI",
     description:
-      "Tạo công thức Excel và học các bước thực hiện bằng AI. Công cụ hỗ trợ Excel & Google Sheets mạnh mẽ nhất.",
+      "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động.",
     images: ["/icon.png"],
     creator: "@eofficeai",
   },
@@ -98,9 +100,11 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "EOfficial Tutor AI",
-  applicationCategory: "BusinessApplication",
-  operatingSystem: "Web Browser",
+  name: "EOffice Tutor AI",
+  applicationCategory: "BusinessApplication, OfficeAddin",
+  operatingSystem: "Windows, macOS, Web Browser",
+  softwareHelp: "https://eofficeai.io.vn/install-guide",
+  downloadUrl: "https://eofficeai.io.vn/download",
   offers: {
     "@type": "Offer",
     price: "79000",
@@ -113,12 +117,12 @@ const jsonLd = {
     ratingCount: "150",
   },
   description:
-    "Trợ lý AI thông minh giúp tạo công thức Excel và học các bước thực hiện. Hỗ trợ tiếng Việt 100%.",
+    "Excel Add-in AI thông minh giúp tạo công thức Excel và học các bước thực hiện tự động. Hỗ trợ tiếng Việt 100%.",
   url: siteUrl,
   image: `${siteUrl}/icon.png`,
   author: {
     "@type": "Organization",
-    name: "EOfficial Tutor AI Team",
+    name: "EOffice Tutor AI Team",
   },
 };
 

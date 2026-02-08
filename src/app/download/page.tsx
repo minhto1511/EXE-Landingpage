@@ -50,7 +50,7 @@ export default function DownloadPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Bứt Phá.</span>
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed">
-              Hãy chọn phiên bản phù hợp để bắt đồng hành cùng trợ lý trí tuệ nhân tạo **EOfficial Tutor AI**.
+              Hãy chọn phiên bản phù hợp để bắt đồng hành cùng trợ lý trí tuệ nhân tạo **EOffice Tutor AI**.
             </p>
           </motion.div>
 
