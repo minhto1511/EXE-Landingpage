@@ -14,7 +14,7 @@ const Footer = () => {
             <Sparkles className="w-4 h-4 text-black" fill="black" />
           </div>
           <span className="font-black text-xs tracking-tighter text-white uppercase italic">
-            EOffice <span className="text-emerald-500">Tutor AI</span>
+            EOfficial <span className="text-emerald-500">Tutor AI</span>
           </span>
         </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             <Mail className="w-3 h-3" /> eofficialtutorai@gmail.com
           </a>
           <div className="w-1 h-1 bg-white/10 rounded-full hidden sm:block" />
-          <a href="https://www.facebook.com/EOfficeTutorAI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+          <a href="https://www.facebook.com/EOfficialTutorAI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
             <Facebook className="w-3 h-3" /> Fanpage
           </a>
           <div className="w-1 h-1 bg-white/10 rounded-full hidden sm:block" />
@@ -39,7 +39,7 @@ const Footer = () => {
 
         {/* Right: Copyright */}
         <p className="text-[9px] font-black text-white/15 tracking-[0.2em] uppercase whitespace-nowrap flex-shrink-0">
-          © 2025 EOffice Tutor AI.
+          © 2025 EOfficial Tutor AI.
         </p>
 
       </div>

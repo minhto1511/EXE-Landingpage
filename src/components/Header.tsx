@@ -35,7 +35,7 @@ const Header = () => {
             <Sparkles className="w-5 h-5 text-black" fill="black" />
           </div>
           <span className="font-black text-lg tracking-tighter text-white uppercase italic">
-            EOffice <span className="text-emerald-500">Tutor AI</span>
+            EOfficial <span className="text-emerald-500">Tutor AI</span>
           </span>
         </Link>
 

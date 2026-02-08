@@ -43,7 +43,7 @@ export default function DesktopGuidePage() {
     },
     {
       title: "Cài đặt hoàn tất",
-      desc: "Vào tab Chèn (Insert) -> Tiện ích (Add-ins) -> Thư mục dùng chung (Shared Folder) -> Chọn EOffice Tutor AI.",
+      desc: "Vào tab Chèn (Insert) -> Tiện ích (Add-ins) -> Thư mục dùng chung (Shared Folder) -> Chọn EOfficial Tutor AI.",
       icon: <Sparkles className="w-6 h-6 text-blue-500" />
     }
   ];
@@ -65,7 +65,7 @@ export default function DesktopGuidePage() {
               Hướng Dẫn <span className="text-blue-500">Cài Đặt</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto font-medium leading-relaxed">
-              Làm theo 4 bước dưới đây để tích hợp trợ lý EOffice Tutor AI vào phiên bản Excel cài trên máy tính của bạn.
+              Làm theo 4 bước dưới đây để tích hợp trợ lý EOfficial Tutor AI vào phiên bản Excel cài trên máy tính của bạn.
             </p>
           </motion.div>
 
@@ -141,7 +141,7 @@ export default function DesktopGuidePage() {
                 085 511 8858
               </Link>
               <a 
-                href="https://www.facebook.com/EOfficeTutorAI" 
+                href="https://www.facebook.com/EOfficialTutorAI" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-blue-400/20 border border-white/10 text-white font-black rounded-2xl hover:bg-blue-400/30 transition-all flex items-center justify-center gap-2"

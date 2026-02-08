@@ -9,8 +9,8 @@ const siteUrl = "https://eofficeai.io.vn";
 export const metadata: Metadata = {
   // Basic Metadata
   title: {
-    default: "Excel Add-in AI - EOffice Tutor AI | Trợ Lý Excel Thông Minh",
-    template: "%s | EOffice Tutor AI",
+    default: "Excel Add-in AI - EOfficial Tutor AI | Trợ Lý Excel Thông Minh",
+    template: "%s | EOfficial Tutor AI",
   },
   description:
     "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động bằng trí tuệ nhân tạo.",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     "google sheets ai",
     "excel automation",
   ],
-  authors: [{ name: "EOffice Tutor AI Team" }],
-  creator: "EOffice Tutor AI",
-  publisher: "EOffice Tutor AI",
+  authors: [{ name: "EOfficial Tutor AI Team" }],
+  creator: "EOfficial Tutor AI",
+  publisher: "EOfficial Tutor AI",
 
   // Canonical URL
   metadataBase: new URL(siteUrl),
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     url: siteUrl,
-    siteName: "EOffice Tutor AI",
-    title: "Excel Add-in AI - EOffice Tutor AI | Trợ Lý Excel Thông Minh",
+    siteName: "EOfficial Tutor AI",
+    title: "Excel Add-in AI - EOfficial Tutor AI | Trợ Lý Excel Thông Minh",
     description:
       "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động bằng trí tuệ nhân tạo.",
     images: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         url: "/icon.png",
         width: 512,
         height: 512,
-        alt: "Excel Add-in AI - EOffice Tutor AI Logo",
+        alt: "Excel Add-in AI - EOfficial Tutor AI Logo",
       },
     ],
   },
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "Excel Add-in AI - EOffice Tutor AI",
+    title: "Excel Add-in AI - EOfficial Tutor AI",
     description:
       "Excel Add-in AI mạnh mẽ nhất cho người Việt. Tạo công thức Excel, Google Sheets và học các bước thực hiện tự động.",
     images: ["/icon.png"],
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "EOffice Tutor AI",
+  name: "EOfficial Tutor AI",
   applicationCategory: "BusinessApplication, OfficeAddin",
   operatingSystem: "Windows, macOS, Web Browser",
   softwareHelp: "https://eofficeai.io.vn/install-guide",
@@ -122,7 +122,7 @@ const jsonLd = {
   image: `${siteUrl}/icon.png`,
   author: {
     "@type": "Organization",
-    name: "EOffice Tutor AI Team",
+    name: "EOfficial Tutor AI Team",
   },
 };
 

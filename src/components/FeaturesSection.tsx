@@ -50,7 +50,7 @@ const FeaturesSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-xl">
             <h2 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tighter">Sức mạnh Toàn diện.</h2>
-            <p className="text-gray-500 text-lg">Giao diện lưới hiện đại giúp bạn bao quát toàn bộ sức mạnh của EOffice Tutor AI trong một cái nhìn.</p>
+            <p className="text-gray-500 text-lg">Giao diện lưới hiện đại giúp bạn bao quát toàn bộ sức mạnh của EOfficial Tutor AI trong một cái nhìn.</p>
           </div>
           <div className="text-emerald-400 font-mono text-sm uppercase tracking-widest hidden md:block">
             Tính năng // 001

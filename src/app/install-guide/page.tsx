@@ -87,7 +87,7 @@ export default function InstallGuidePage() {
               Hướng Dẫn <span className="text-emerald-500">Cài Đặt</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Chỉ mất 2 phút để tích hợp trí tuệ nhân tạo EOffice Tutor AI vào Excel của bạn.
+              Chỉ mất 2 phút để tích hợp trí tuệ nhân tạo EOfficial Tutor AI vào Excel của bạn.
             </p>
           </motion.div>
 
@@ -124,7 +124,7 @@ export default function InstallGuidePage() {
             <div>
               <h4 className="font-bold text-blue-400 mb-1 italic">Hỗ trợ đa nền tảng</h4>
               <p className="text-sm text-gray-400 leading-relaxed">
-                EOffice Tutor AI hiện đã hỗ trợ đầy đủ trên cả Excel Online và Excel Desktop (Windows). Hãy chọn tab tương ứng để xem hướng dẫn chi tiết.
+                EOfficial Tutor AI hiện đã hỗ trợ đầy đủ trên cả Excel Online và Excel Desktop (Windows). Hãy chọn tab tương ứng để xem hướng dẫn chi tiết.
               </p>
             </div>
           </motion.div>
@@ -195,7 +195,7 @@ export default function InstallGuidePage() {
                 085 511 8858
               </Link>
               <a 
-                href="https://www.facebook.com/EOfficeTutorAI" 
+                href="https://www.facebook.com/EOfficialTutorAI" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white/20 border border-black/10 text-black font-black rounded-2xl hover:bg-white/30 transition-all flex items-center justify-center gap-2"

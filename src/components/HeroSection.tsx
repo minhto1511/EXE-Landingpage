@@ -47,7 +47,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="max-w-2xl mx-auto text-xl md:text-2xl text-white font-light leading-relaxed mb-12"
         >
-          Không còn vật lộn với công thức. **Trợ lý Excel thông minh** EOffice Tutor AI giúp bạn làm việc nhanh hơn gấp 10 lần.
+          Không còn vật lộn với công thức. **Trợ lý Excel thông minh** EOfficial Tutor AI giúp bạn làm việc nhanh hơn gấp 10 lần.
         </motion.p>
 
         {/* Premium CTA Block */}
