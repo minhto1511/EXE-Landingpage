@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     "công thức excel",
     "trợ lý excel",
     "trợ lý excel thông minh",
+    "trợ lý excel thế hệ mới",
     "ai excel việt nam",
     "hàm excel",
     "google sheets ai",
