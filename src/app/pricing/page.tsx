@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import PricingClient from "./PricingClient";
 
 export const metadata: Metadata = {
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
   },
 };
 
+function PricingFallback() {
+  return (
+    <div className="min-h-screen bg-[#030712] flex items-center justify-center">
+      <div className="w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+    </div>
+  );
+}
+
 export default function PricingPage() {
-  return <PricingClient />;
+  return (
+    <Suspense fallback={<PricingFallback />}>
+      <PricingClient />
+    </Suspense>
+  );
 }
